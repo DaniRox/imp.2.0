@@ -1,0 +1,295 @@
+.CompromisoImpulzzeEmpresas {
+    background-color: var(--clear);
+    height: 100%;
+    padding: 3rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-end;
+}
+
+.CompromisoImpulzzeEmpresasContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CompromisoImpulzzeEmpresasContent__title {
+    width: 100%;
+    color: var(--salmon);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-large);
+    text-align: center;
+    align-self: center;
+    line-height: 110%;
+}
+
+.CompromisoImpulzzeEmpresasContent__text {
+    background-color: var(--salmon);
+    padding: 2.5rem 4rem 4rem 3.5rem;
+    border-radius: 80rem 0 150rem 80rem;
+    line-height: 110%;
+    display: flex;
+}
+
+.text {
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-medium);
+    line-height: 105%;
+}
+
+.highlighted {
+    font-style: italic;
+}
+
+.textItalic {
+    font-style: italic;
+    font-family: var(--font-secondary);
+}
+
+.CompromisoImpulzzeEmpresasContent__shapes {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4rem;
+}
+
+.shapeImage {
+    height: 10rem;
+    width: auto;
+}
+
+.CompromisoImpulzzeEmpresasContent__video {
+    width: 100%;
+    height: 13rem;
+    background-color: var(--esmerald);
+    border-radius: 80rem 160rem 0  100rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+
+.video.active {
+    opacity: 1;
+    position: relative;
+    display: block;
+}
+
+.video.hidden {
+    opacity: 0;
+    position: absolute;
+}
+
+.logotipo {
+    width: 5.8rem;
+    height: 5.8rem;
+    background-color: var(--esmerald);
+    padding: 1rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (min-width: 375px) {
+    .CompromisoImpulzzeEmpresasContent {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    .CompromisoImpulzzeEmpresasContent__title {
+        font-size: var(--font-Xlarge);
+    }
+
+    .CompromisoImpulzzeEmpresasContent__text {
+        border-radius: 80rem 0 150rem 80rem;
+        line-height: 110%;
+        width: 80%;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__video {
+        width: 80%;
+        height: 13rem;
+        background-color: var(--esmerald);
+        border-radius: 80rem 160rem 0  100rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__shapes {
+        width: 80%;
+    }
+
+    .shapeImage {
+        height: 12rem;
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .CompromisoImpulzzeEmpresas {
+        padding: 4rem 8%;
+        gap: 2.2rem;
+    }
+
+    .CompromisoImpulzzeEmpresasContent {
+        width: 100%;
+        height: 14rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__text {
+        width: 40%;
+        height: 100%;
+        border-radius: 100rem 0 150rem 90rem;
+        padding: 2rem 3rem 3rem 2.5rem;
+    }
+    
+    .text {
+        height: min-content;
+        align-self: center;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__video {
+        width: 40%;
+        height: 100%;
+        background-color: var(--esmerald);
+        border-radius: 80rem 160rem 0  100rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+    }
+
+    .video {
+        height: 100%;
+        width: auto;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__shapes {
+        height: 100%;
+        width: min-content;
+        margin-top: 0rem;
+        margin-bottom: -4rem;
+        margin-left: -2rem;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .shapeImage {
+        height: 13rem;
+        width: auto;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1024px) {
+    .CompromisoImpulzzeEmpresas {
+        padding: 5rem 10%;
+        gap: 2.5rem;
+    }
+
+    .CompromisoImpulzzeEmpresasContent {
+        height: 15rem;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__text {
+        width: 100%;
+        min-width: 16rem;
+        max-width: 19rem;
+        border-radius: 110rem 0 150rem 90rem;
+    }
+    
+    .CompromisoImpulzzeEmpresasContent__video {
+        width: 100%;
+        min-width: 22rem;
+        background-color: var(--esmerald);
+        border-radius: 80rem 160rem 0  100rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__title {
+        font-size: var(--font-XXlarge);
+    }
+}
+
+  /* Escritorio */
+@media (min-width: 1280px) {
+    .CompromisoImpulzzeEmpresas {
+        padding: 5rem 10%;
+    }
+
+    .CompromisoImpulzzeEmpresasContent {
+        height: 16rem;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .CompromisoImpulzzeEmpresas {
+        padding: 5rem 14%;
+    }
+
+    .CompromisoImpulzzeEmpresasContent__text {
+        width: 100%;
+        min-width: 16rem;
+        max-width: 42%;
+    }
+    
+    .CompromisoImpulzzeEmpresasContent__video {
+        width: 100%;
+        min-width: 22rem;
+    }
+    
+}
+
+@media (min-width: 2000px) {
+    .CompromisoImpulzzeEmpresasContent {
+        height: 17rem;
+    }
+    
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 2560px) {
+    .CompromisoImpulzzeEmpresasContent {
+        height: 18rem;
+    }
+    
+}

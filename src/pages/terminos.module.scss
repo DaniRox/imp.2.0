@@ -1,0 +1,28 @@
+.Terminos {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark);
+    color: var(--clear);
+    font-family: var(--font-primary);
+    padding: 2rem 5% 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-Xlarge);
+    padding-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-size: var(--font-large);
+    font-weight: var(--font-weight-light);
+    padding-bottom: 0.4rem;
+}
+
+.text {
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-small);
+    padding-bottom: 1.2rem;
+}

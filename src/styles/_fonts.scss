@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/ick0cbm.css");
+
+:root {
+    --font-primary: "Roboto Condensed", serif;
+    --font-secondary: venice-blvd, sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --font-weight-italic: italic;
+
+    --font-small: 0.65rem;
+    --font-medium: 0.7rem;
+    --font-large: 1.1rem;
+    --font-Xlarge: 1.3rem;
+    --font-XXlarge: 1.8rem;
+
+    --font-small2: 0.68rem;
+    --font-medium2: 0.72rem;
+
+
+    --font-secondary-small: 0.7rem;
+    --font-secondary-medium: 0.85rem;
+    --font-secondary-large: 1.4rem;
+    --font-secondary-Xlarge: 1.9rem;
+    --font-secondary-XXlarge: 2.6rem;
+}
+
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 480px) {
+    :root {
+        --font-small: 0.8rem;
+        --font-medium: 0.85rem;
+        --font-large: 1.25rem;
+        --font-Xlarge: 1.45rem;
+        --font-XXlarge: 1.95rem;
+        --font-XXXlarge: 2.35rem;
+
+        --font-small2: 0.83rem;
+        --font-medium2: 0.87rem;
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1281px) {
+
+}

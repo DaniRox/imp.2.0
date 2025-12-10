@@ -1,0 +1,237 @@
+.SobreImpulzzeEmpresas {
+    background-color: var(--clear);
+    padding: 3rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+}
+
+.SobreImpulzzeEmpresas__titles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.SobreImpulzzeEmpresas__subtitle {
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-medium);
+    text-align: start;
+    max-width: 35rem;
+}
+
+.SobreImpulzzeEmpresas__title {
+    color: var(--purple);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-large);
+    text-align: start;
+    max-width: 35rem;
+    line-height: 120%;
+}
+
+.SobreImpulzzeEmpresasContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.SobreImpulzzeEmpresasContent__text {
+    background-color: var(--salmon);
+    padding: 3rem 3rem 5rem 4rem;
+    border-radius: 0 100rem 80rem 160rem;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    height: min-content;
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-medium);
+}
+
+.highlighted {
+    font-style: italic;
+    font-family: var(--font-secondary);
+    font-size: var(--font-medium2);
+}
+
+.SobreImpulzzeEmpresasContent__shapes {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shapeImage {
+    height: auto;
+    width: 10rem;
+}
+
+.SobreImpulzzeEmpresasContent__spans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.span1 {
+    width: 90%;
+    text-align: end;
+    font-family: var(--font-secondary);
+    color: var(--esmerald);
+    font-size: var(--font-medium);
+    font-weight: var(--font-weight-black);
+    align-self: flex-end;
+    line-height: 110%;
+}
+
+.span2 {
+    width: 90%;
+    font-family: var(--font-secondary);
+    color: var(--salmon);
+    font-size: var(--font-medium);
+    font-weight: var(--font-weight-black);
+    align-self: flex-start;
+    line-height: 110%;
+}
+
+@media (min-width: 375px) {
+    
+    
+}
+
+@media (min-width: 480px) {
+
+    .SobreImpulzzeEmpresas__title {
+        font-size: var(--font-secondary-Xlarge);
+    }
+
+    .span1 {
+        width: 80%;
+    }
+
+    .span2 {
+        width: 80%;
+    }
+
+    .shapeImage {
+        height: auto;
+        width: 11rem;
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 769px) {
+    .SobreImpulzzeEmpresas {
+        padding: 4rem 8%;
+        gap: 1.5rem;
+    }
+
+    .SobreImpulzzeEmpresas__subtitle {
+        font-size: var(--font-large);
+    }
+
+    .SobreImpulzzeEmpresasContent__text {
+        padding: 3rem 3rem 5rem 4rem;
+        border-radius: 0 100rem 80rem 150rem;
+        height: min-content;
+    }
+
+    .SobreImpulzzeEmpresasContent {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .span1 {
+        width: 80%;
+        font-size: var(--font-large);
+    }
+
+    .span2 {
+        width: 80%;
+        font-size: var(--font-large);
+    }
+
+    .shapeImage {
+        height: auto;
+        width: 12rem;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1024px) {
+    .SobreImpulzzeEmpresas {
+        padding: 5rem 10%;
+    }
+
+    .SobreImpulzzeEmpresasContent__text {
+        height: min-content;
+    }
+
+    .SobreImpulzzeEmpresasContent__spans {
+        width: 100%;
+        align-self: center;
+    }
+
+    .shapeImage {
+        height: auto;
+        width: 14rem;
+    }
+
+    .span1 {
+        width: 70%;
+        font-size: var(--font-large);
+    }
+
+    .span2 {
+        width: 70%;
+        font-size: var(--font-large);
+    }
+}
+
+/* Escritorio */
+@media (min-width: 1280px) {
+
+    .SobreImpulzzeEmpresasContent {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+
+    .SobreImpulzzeEmpresasContent__text {
+        height: 16rem;
+    }
+
+    .shapeImage {
+        height: auto;
+        width: 15rem;
+    }
+}
+
+/* Pantallas grandes de escritorio */
+@media (min-width: 1440px) {
+    .SobreImpulzzeEmpresas {
+        padding: 5rem 14%;
+    }
+
+    .span1 {
+        width: 60%;
+        font-size: var(--font-large);
+    }
+
+    .span2 {
+        width: 60%;
+        font-size: var(--font-large);
+    }
+}
+
+/* Pantallas extra grandes */
+@media (min-width: 2000px) {
+    
+}

@@ -1,0 +1,45 @@
+.CardComentario {
+    width: 15rem;
+    min-width: 15rem;
+    height: 15rem;
+    background-color: var(--esmerald);
+    color: var(--dark);
+    padding: 1.6rem;
+    border-radius: 0rem 10rem 10rem 10rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: -2px 2px 10px 0px rgba(80,80,80,0.5);
+    transition: all 300ms;
+}
+
+.CardComentario:hover {
+    transform: scale(1.05, 1.05);
+    z-index: 0;
+}
+
+.CardComentario__img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.CardComentario__foto {
+    max-width: none;
+    width: 100%;
+    height: 100%;
+}
+
+.CardComentario__text {
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-size: var(--font-medium);
+    font-weight: var(--font-weight-regular);
+    font-style: italic;
+    line-height: 120%;
+}

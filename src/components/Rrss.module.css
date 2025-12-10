@@ -1,0 +1,24 @@
+.Rrss__content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0.6rem;
+    top: 30%;
+    gap: 1rem;
+    z-index: 100;
+}
+
+.Rrss__icon {
+    background-color: var(--maiz);
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rrss_imgIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}

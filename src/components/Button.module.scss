@@ -1,0 +1,32 @@
+.button {
+    color: var(--dark);
+    background-color: var(--background-color);
+    border: none;
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size);
+    padding: 0.55rem 1rem 0.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 200ms;
+    box-shadow: -2px 2px 4px 0px rgba(80,80,80,0.5);
+}
+
+.button:hover {
+    transform: scale(1.01, 1.01);
+    box-shadow: -3px 4px 8px 0px rgba(0,0,0,0.5);
+    background-color: var(--hover-color);
+}
+
+.button:active {
+    filter: brightness(0.9);
+    transform: scale(0.98, 0.98);
+    box-shadow: none;
+}
+
+
+@media (min-width: 769px) {
+    .button {
+        padding: 0.65rem 1.5rem 0.6rem ;
+    }
+}

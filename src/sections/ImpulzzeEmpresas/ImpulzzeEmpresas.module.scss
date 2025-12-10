@@ -1,0 +1,189 @@
+.ImpulzzeEmpresas {
+    background-color: var(--clear);
+    background-image: url("/images/shapesGroup3.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 18rem;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0em;
+}
+
+.ImpulzzeEmpresas__title {
+    color: var(--dark);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-large);
+    text-align: start;
+    max-width: 35rem;
+    padding: 0rem 5%;
+    align-self: flex-start;
+    line-height: 120%;
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 11rem;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
+.ImpulzzeEmpresasContent {
+    width: 100%;
+    padding: 1rem 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ImpulzzeEmpresasContent__Button {
+    width: 100%;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+}
+
+.halfCircle {
+    height: 9.5rem;
+    width: 6rem;
+    rotate: 90deg;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 4rem;
+    z-index: -1;
+}
+
+.highlighted {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.text__highlighted {
+    font-size: var(--font-medium2);
+    font-weight: 600;
+}
+
+.text__highlightedcenter {
+    text-align: center;
+}
+
+ul {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+li {
+    margin-left: 1rem;
+    list-style: disc;
+}
+
+.span {
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-large);
+    padding: 1.5rem 5%;
+    font-family: var(--font-primary);
+    color: var(--dark);
+    font-size: var(--font-medium);
+    font-weight: var(--font-weight-black);
+    line-height: 110%;
+}
+
+/* Móviles estándar */
+@media (min-width: 480px) {
+    .ImpulzzeEmpresasContent {
+        padding: 2rem 28%;
+        gap: 50%;
+    }
+
+    .ImpulzzeEmpresas__title {
+        font-size: var(--font-large);
+    }
+
+    .arrowLeft, .arrowRight {
+        margin-top: 15rem;
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 768px) {
+    .ImpulzzeEmpresas {
+        padding: 4rem 8%;
+    }
+
+    .arrowLeft, .arrowRight {
+        display: none;
+    }
+
+    .ImpulzzeEmpresasContent {
+        padding: 2rem 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .ImpulzzeEmpresas__title {
+        max-width: 35rem;
+        padding: 0rem 0rem;
+    }
+
+    .halfCircle {
+        height: 11rem;
+        width: 6rem;
+        position: absolute;
+        margin-top: -3rem;
+        margin-left: 4rem;
+    }
+
+    .ImpulzzeEmpresasContent__Button {
+        padding-right: 20%;
+    }
+
+    .span {
+        font-size: var(--font-large);
+        padding: 2rem 0;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1024px) {
+    .ImpulzzeEmpresas {
+        padding: 5rem 10%;
+    }
+
+    .ImpulzzeEmpresasContent {
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1440px) {
+    .ImpulzzeEmpresas {
+        padding: 5rem 14%;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    
+}
