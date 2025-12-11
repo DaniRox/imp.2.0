@@ -1,4 +1,3 @@
-
 // lib/firebase.js
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore'; // Agregamos funciones específicas de Firestore

@@ -15,12 +15,14 @@ const HomePage = () => {
     return (
         <>
             <Hero />
-            <SobreImpulzzeEmpresas />
             <CompromisoImpulzzeEmpresas />
+            <SobreImpulzzeEmpresas />
             <ImpulzzeEmpresas />
             <ComoFuncionaEmpresas />
             <RegistrarEmpresa />
+            {/*
             <CasosDeExitoEmpresas />
+            */}
         </>
     );
 };

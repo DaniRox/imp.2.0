@@ -8,7 +8,7 @@ import ComoFuncionaFreelancers from "../sections/ComoFuncionaFreelancers/ComoFun
 import RegistrarFreelancers from "../sections/RegistrarFreelancers/RegistrarFreelancers";
 import ComunidadImpulzzeFreelancers from "../sections/ComunidadImpulzzeFreelancers/ComunidadImpulzzeFreelancers";
 import CompromisoImpulzzeFreelancers from "../sections/CompromisoImpulzzeFreelancers/CompromisoImpulzzeFreelancers";
-import ConectaImpulzzeFreelancers from "../sections/ConectaImpulzzeFreelancers/ConectaImpulzzeFreelancers";
+import CasosDeExitoFreelancers from "../sections/CasosDeExitoFreelancers/CasosDeExitoFreelancers";
 
 
 const HomePage = () => {
@@ -23,7 +23,7 @@ const HomePage = () => {
             {/*Comunidad Impulzze*/}
             <ComunidadImpulzzeFreelancers />
             <RegistrarFreelancers />
-            <ConectaImpulzzeFreelancers />
+            <CasosDeExitoFreelancers />
         </>
     );
 };
