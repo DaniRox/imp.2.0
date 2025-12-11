@@ -58,7 +58,7 @@
 
 .CardCircle__text {
     font-family: var(--font-primary);
-    font-size: var(--font-medium);
+    font-size: var(--font-medium2);
     font-weight: var(--font-weight-light);
     text-align: center;
     color: var(--dark);
@@ -85,7 +85,7 @@
 @media (min-width: 481px) {
     .ComoFuncionaFreelancersContent {
         padding: 2rem 20%;
-        gap: 50%;
+        gap: 5rem;
     }
 
     .ComoFuncionaFreelancers__title {
@@ -101,6 +101,9 @@
     }
 
     .ComoFuncionaFreelancersContent__CardCircle1, .ComoFuncionaFreelancersContent__CardCircle2, .ComoFuncionaFreelancersContent__CardCircle3 {
+        min-width: 13rem;
+        width: 13rem;
+        height: 13rem;
         margin: 2rem 0;
     }
 
@@ -113,7 +116,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 0rem 4rem;
+        gap: 0rem 5rem;
     }
 
     .span1 {
@@ -174,6 +177,13 @@
 @media (min-width: 1024px) {
     .ComoFuncionaFreelancers {
         padding: 5rem 10%;
+    }
+
+    .ComoFuncionaFreelancersContent__CardCircle1, .ComoFuncionaFreelancersContent__CardCircle2, .ComoFuncionaFreelancersContent__CardCircle3 {
+        min-width: 14rem;
+        width: 14rem;
+        height: 14rem;
+        margin: 2rem 0;
     }
 
 }

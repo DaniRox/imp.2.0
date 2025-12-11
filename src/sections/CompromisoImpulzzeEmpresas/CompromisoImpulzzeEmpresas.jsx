@@ -47,7 +47,7 @@ const CompromisoImpulzzeEmpresas = () => {
 
                 <div className={styles.CompromisoImpulzzeEmpresasContent__text}>
                     <p className={styles.text}>
-                        Consultoría de <span className={styles.highlighted}>Recursos Humanos + talento global + People Operations</span>. Todo en un solo lugar.<br></br>
+                        Consultoría de <span className={styles.highlighted}>Recursos Humanos + Talento Global + People Operations</span>. Todo en un solo lugar.<br></br>
                         <br></br>Para <span className={styles.highlighted}>startups, pequeñas y medianas empresas</span> que quieren crecer con orden, rapidez y estrategia.
                     </p>
                 </div>

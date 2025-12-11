@@ -1,10 +1,10 @@
 import { useRef, useEffect, useState } from 'react';
-import styles from "./CasosDeExitoEmpresas.module.scss";
+import styles from "./CasosDeExitoFreelancers.module.scss";
 import CardComentario from "../../components/CardComentario";
 import ArrowLeft from "../../components/ArrowLeft";
 import ArrowRight from "../../components/ArrowRight";
 
-const CasosDeExitoEmpresas = () => {
+const CasosDeExitoFreelancers = () => {
     const contentRef = useRef(null);
     const scrollSpeed = 1; // Velocidad del auto-scroll
 
@@ -14,10 +14,23 @@ const CasosDeExitoEmpresas = () => {
 
     // Datos de las tarjetas
     const cards = [
-        { img: "/images/client1.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-        { img: "/images/client2.jpg", text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-        { img: "/images/client1.jpg", text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
-        { img: "/images/client2.jpg", text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore." },
+        {
+            img: "/images/freelancer1.jpg",
+            text: "Quiero agradecer a Impulzze por su excelente apoyo en el perfilamiento y optimización de mi CV. Su asesoría me ayudó a mejorar mi presencia profesional y a resaltar mis competencias como Project Manager, alineandolas mejor con las demandas del mercado. Recomiendo su servicio a quienes buscan potenciar su carrera y destacarse en su industria. ¡Gracias por el gran trabajo!" ,
+            name: "Marielisa - Jefa de Proyectos"
+        },
+
+        {
+            img: "/images/freelancer2.jpg",
+            text: "Impulzze me ayudó a darle forma a mi perfil profesional y a gnar seguridad de mis habilidades blandas para comenzar con toda la fuerza con mi primera búqueda laboral especializada en UX, en unas semanas logré convertirme en CUstomer Success en una Startup como siempre fue mi objetivo.",
+            name: "Marielith - Cusstomer Success"
+        },
+
+        {
+            img: "/images/freelancer3.jpg",
+            text: "Agradezco a Impulzze por su acompañamiento desde el inicio de mi proceso de bíusqueda laboral hasta la concreción de una oportunidad que marcó un antes y un después en mi carrera. Personas que te acompañan, guían y dan todos los tips que me sirvieron para mi crecimiento profesional.",
+            name: "Douglas - Senior Sales Development"
+        },
     ];
 
     // --- LÓGICA PARA EL AUTO-SCROLL Y LA PAUSA (SIN CAMBIOS) ---
@@ -87,8 +100,8 @@ const CasosDeExitoEmpresas = () => {
 
 
     return (
-        <section className={styles.CasosDeExitoEmpresas} id="CasosDeExitoEmpresas">
-            <h1 className={styles.CasosDeExitoEmpresas__title}>
+        <section className={styles.CasosDeExitoFreelancers} id="CasosDeExitoFreelancers">
+            <h1 className={styles.CasosDeExitoFreelancers__title}>
                 Casos de Exitos:<br />
                 Nuestros clientes lo respaldan.
             </h1>
@@ -102,7 +115,7 @@ const CasosDeExitoEmpresas = () => {
             </button>
 
             <div
-                className={styles.CasosDeExitoEmpresasContent}
+                className={styles.CasosDeExitoFreelancersContent}
                 ref={contentRef}
                 onMouseEnter={() => setIsPaused(true)}
                 onMouseLeave={() => setIsPaused(false)}
@@ -112,15 +125,16 @@ const CasosDeExitoEmpresas = () => {
                         key={index}
                         img={card.img}
                         text={card.text}
+                        name={card.name}
                     />
                 ))}
             </div>
 
-            <h1 className={styles.CasosDeExitoEmpresas__title2}>
+            <h1 className={styles.CasosDeExitoFreelancers__title2}>
                 Conecta con nosotros y crea éxito.
             </h1>
         </section>
     );
 };
 
-export default CasosDeExitoEmpresas;
+export default CasosDeExitoFreelancers;

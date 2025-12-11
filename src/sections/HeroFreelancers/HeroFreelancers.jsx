@@ -5,9 +5,9 @@ import Button from "../../components/Button";
 
 
 const spans = [
-    "Nuevas Oportunidades Laborales",
-    "Proyectos Globales",
-    "Oportunidades Freelance",
+    "Nuevas Oportunidades \nLaborales",
+    "Proyectos \nGlobales",
+    "Oportunidades \nFreelance",
 ];
 
 const HeroFreelancers = () => {
@@ -45,20 +45,48 @@ const HeroFreelancers = () => {
             <div className={styles.HeroFreelancersContent}>
                 <div className={styles.HeroFreelancersContent__text}>
                     <h1 className={styles.h1}>
-                        Impulzza tu empresa,<br />
-                        Somo tu<br />
+                        Impulzza tu carrera,<br />
+                        Conecta con<br />
+
                         <span className={styles.animatedText}>
-                        {currentText.split("").map((char, index) => (
-                            <span
-                            key={index}
-                            className={styles.letter}
-                            style={{
-                                animationDelay: `${index * 0.1}s` // Controla el tiempo de animación de cada letra
-                            }}
-                            >
-                            {char === " " ? "\u00A0" : char}
-                            </span>
-                        ))}
+                            {
+                                // 1. Dividimos el texto actual en líneas para manejar los \n
+                                currentText.split('\n').map((line, lineIndex) => (
+                                    <React.Fragment key={lineIndex}>
+                                        {
+                                            // 2. Dividimos cada línea en palabras
+                                            line.split(' ').map((word, wordIndex) => {
+                                                // 3. Contamos los caracteres para calcular el delay correcto
+                                                let charCount = 0;
+                                                const previousWords = line.split(' ').slice(0, wordIndex);
+                                                previousWords.forEach(w => charCount += w.length + 1); // +1 por el espacio
+
+                                                return (
+                                                    <span key={wordIndex} className={styles.wordWrapper}>
+                                                        {
+                                                            // 4. Animamos cada letra de la palabra
+                                                            word.split('').map((char, charIndex) => (
+                                                                <span
+                                                                    key={charIndex}
+                                                                    className={styles.letter}
+                                                                    style={{
+                                                                        // 5. El delay ahora es global, no por palabra
+                                                                        animationDelay: `${(charCount + charIndex) * 0.1}s`
+                                                                    }}
+                                                                >
+                                                                    {char}
+                                                                </span>
+                                                            ))
+                                                        }
+                                                    </span>
+                                                );
+                                            })
+                                        }
+                                        {/* 6. Añadimos el <br /> si no es la última línea */}
+                                        {lineIndex < currentText.split('\n').length - 1 && <br />}
+                                    </React.Fragment>
+                                ))
+                            }
                         </span>
                     </h1>
                     <div className={styles.HeroFreelancersContent__buttons}>

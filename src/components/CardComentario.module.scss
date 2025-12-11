@@ -1,7 +1,7 @@
 .CardComentario {
-    width: 15rem;
-    min-width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    min-width: 16rem;
+    height: 18rem;
     background-color: var(--esmerald);
     color: var(--dark);
     padding: 1.6rem;
@@ -38,8 +38,51 @@
 .CardComentario__text {
     color: var(--dark);
     font-family: var(--font-primary);
-    font-size: var(--font-medium);
-    font-weight: var(--font-weight-regular);
+    font-size: var(--font-small);
+    font-weight: var(--font-weight-light);
     font-style: italic;
     line-height: 120%;
+}
+
+.CardComentario__name {
+    color: var(--dark);
+    font-family: var(--font-primary);
+    font-size: var(--font-medium2);
+    font-weight: var(--font-weight-medium);
+    line-height: 120%;
+    text-align: center;
+}
+
+
+
+@media (min-width: 480px) {
+    .CardComentario {
+        width: 18.5rem;
+        min-width: 18.5rem;
+        height: 21rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1228px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}
+
+@media (min-width: 2560px) {
+
 }

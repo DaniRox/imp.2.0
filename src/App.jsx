@@ -1,7 +1,5 @@
 // src/App.jsx
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Importacion del Layouts
 import MainLayout from "./layout/MainLayout";
@@ -14,7 +12,7 @@ import FreelancersPage from "./pages/FreelancersPage";
 
 function App() {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Routes>
                 {/* Ruta principal con su layout estándar */}
                 <Route path="/" element={<MainLayout />}>
@@ -27,7 +25,7 @@ function App() {
                 </Route>
 
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
     );
 }
 

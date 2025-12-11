@@ -39,20 +39,23 @@ const ImpulzzeFreelancers = () => {
                                 <li>Motores de búsqueda y tácticas para aplicar mejor</li>
                                 <li>Plan de acción de 90 días</li>
                                 <li>Guía de portafolio (si aplica)</li>
-                            </ul> 
+                            </ul>
                             <br />
                             <p className={styles.text__highlighted} >
                                 Ideal para: Personas que necesitan claridad, orden y herramientas profesionales.
                             </p>
+
+                            {/*
                             <div className={styles.card__btnContent}>
                                 <Button
                                     text="Contáctanos"
                                     backgroundColor="var(--esmerald)"
                                     hoverColor="var(--maiz)"
                                     fontSize="var(--font-small)"
-                                    
+
                                 />
                             </div>
+                            */}
                         </>
                     }
                 />
@@ -65,7 +68,7 @@ const ImpulzzeFreelancers = () => {
                             Precisión + acompañamiento 1:1 para acelerar tus resultados. <br />
                             <p className={styles.text__highlighted} >
                                 Incluye todo lo del Camino  Competitivo*
-                            </p>                            
+                            </p>
                             <ul>
                                 <li>Acompañamiento personalizado semanal</li>
                                 <li>Simulacros de entrevista profesionales</li>
@@ -78,15 +81,18 @@ const ImpulzzeFreelancers = () => {
                             <p className={styles.text__highlighted} >
                                 Ideal para: Personas que buscan avances rápidos y apoyo experto en cada paso.
                             </p>
+
+                            {/*
                             <div className={styles.card__btnContent}>
                                 <Button
                                     text="Contáctanos"
                                     backgroundColor="var(--esmerald)"
                                     hoverColor="var(--maiz)"
                                     fontSize="var(--font-small)"
-                                    
+
                                 />
                             </div>
+                            */}
                         </>
                     }
                 />
@@ -98,7 +104,7 @@ const ImpulzzeFreelancers = () => {
                         <>
                             Tu perfil listo para competir en mercados internacionales y empresas globales. <br />
                             <p className={styles.text__highlighted} >
-                                </p>Incluye todo lo de (Competitivo + Sniper) 
+                                </p>Incluye todo lo de (Competitivo + Sniper)
                             <ul>
                                 <li>Simulacros de entrevista en inglés</li>
                                 <li>Entrenamiento de pitch profesional</li>
@@ -110,16 +116,17 @@ const ImpulzzeFreelancers = () => {
                             <p className={styles.text__highlighted} >
                                 Ideal para: Profesionales que quieren aplicar a oportunidades internacionales de alto nivel.
                             </p>
+                            {/*
                             <div className={styles.card__btnContent}>
                                 <Button
                                     text="Contáctanos"
                                     backgroundColor="var(--esmerald)"
                                     hoverColor="var(--maiz)"
                                     fontSize="var(--font-small)"
-                                    
+
                                 />
                             </div>
-                            
+                            */}
                         </>
                     }
                 />

@@ -19,6 +19,7 @@ const NavbarFreelancers = () => {
 
             <div className={styles.NavbarFreelancersContent__buttons}>
 
+                {/*
                 <Button
                     text="Blog"
                     backgroundColor="var(--salmon)"
@@ -26,6 +27,9 @@ const NavbarFreelancers = () => {
                     fontSize="var(--font-small)"
                     href=""
                 />
+                */}
+
+
                 <Button
                     text="Servicios"
                     backgroundColor="var(--clear)"

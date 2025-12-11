@@ -1,7 +1,7 @@
 
 import styles from "@/components/CardComentario.module.scss";
 
-const CardComentario = ({ img, title, text }) => {
+const CardComentario = ({ img, title, text, name }) => {
     return (
         <div className={styles.CardComentario}>
             <div className={styles.CardComentario__img}>
@@ -15,6 +15,7 @@ const CardComentario = ({ img, title, text }) => {
                 <img src={img} alt={title} className={styles.CardComentario__foto} />
             </div>
             <p className={styles.CardComentario__text}>"{text}"</p>
+            <p className={styles.CardComentario__name}>{name}</p>
         </div>
     );
 };

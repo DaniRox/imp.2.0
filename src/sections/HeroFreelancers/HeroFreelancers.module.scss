@@ -20,7 +20,7 @@
 
 .h1 {
     height: 6rem;
-    color: var(--dark);
+    color: var(--clear);
     font-family: var(--font-secondary);
     font-size: var(--font-Xlarge);
     font-weight: var(--font-weight-black);
@@ -55,7 +55,7 @@
 }
 
 .animatedText {
-    background-color: var(--maiz);
+    background-color: var(--salmon);
     width: fit-content;
     display: flex;
     align-items: center;
@@ -64,6 +64,11 @@
     padding: 0.4rem 0;
 }
 
+.wordWrapper {
+    display: inline-block; // Clave para que se comporte como una palabra
+    white-space: nowrap;   // Evita que la palabra se parta internamente
+    margin-right: 0.2em;   // Añade un pequeño espacio entre palabras
+}
 
 @media (min-width: 375px)  {
     .HeroFreelancers {
@@ -99,8 +104,8 @@
     }
 
     .logotipo {
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
         padding: 2rem;
     }
 
@@ -114,6 +119,7 @@
 
     .HeroFreelancersContent__buttons {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .animatedText {
@@ -124,7 +130,7 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .HeroFreelancers {
         padding: 14rem 8%;
         background-size: 48rem;
@@ -157,8 +163,8 @@
     }
 
     .logotipo {
-        width: 13rem;
-        height: 13rem;
+        width: 11rem;
+        height: 11rem;
         padding: 2rem;
     }
 
@@ -202,8 +208,8 @@
     }
 
     .logotipo {
-        width: 15rem;
-        height: 15rem;
+        width: 13rem;
+        height: 13rem;
         padding: 2.3rem;
     }
 }

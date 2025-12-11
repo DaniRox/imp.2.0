@@ -72,6 +72,11 @@
     padding: 0.4rem 0;
 }
 
+.wordWrapper {
+    display: inline-block; // Clave para que se comporte como una palabra
+    white-space: nowrap;   // Evita que la palabra se parta internamente
+    margin-right: 0.2em;   // Añade un pequeño espacio entre palabras
+}
 
 @media (min-width: 375px)  {
     .Hero {
@@ -122,6 +127,7 @@
 
     .HeroContent__buttons {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .animatedText {

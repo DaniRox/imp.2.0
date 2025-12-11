@@ -1,0 +1,135 @@
+.CasosDeExitoFreelancers {
+    background-color: var(--purple);
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.CasosDeExitoFreelancers__title, .CasosDeExitoFreelancers__title2 {
+    padding: 0rem 5%;
+    color: var(--clear);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-large);
+    text-align: start;
+    max-width: 35rem;
+    align-self: flex-start;
+    line-height: 120%;
+}
+
+.CasosDeExitoFreelancers__title {
+    align-self: flex-start;
+}
+
+.CasosDeExitoFreelancers__title2 {
+    align-self: flex-end;
+}
+
+.arrowLeft, .arrowRight {
+    position: absolute;
+    margin-top: 12rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    z-index: 50;
+}
+
+.arrowLeft {
+    right: 0;
+}
+
+.arrowRight {
+    left: 0;
+}
+
+.CasosDeExitoFreelancersContent {
+    width: 100%;
+    padding: 1rem 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.highlighted {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Móviles estándar */
+@media (min-width: 480px) {
+    .CasosDeExitoFreelancersContent {
+        padding: 1rem 20%;
+        gap: 50%;
+    }
+
+    .arrowLeft, .arrowRight {
+        margin-top: 14rem;
+    }
+
+    .CasosDeExitoFreelancers__title, .CasosDeExitoFreelancers__title2 {
+        font-size: var(--font-secondary-Xlarge);
+    }
+}
+
+  /* Tabletas pequeñas */
+@media (min-width: 768px) {
+
+    .CasosDeExitoFreelancers {
+        padding: 5rem 0;
+        gap: 2.5rem;
+    }
+
+    .CasosDeExitoFreelancers__title, .CasosDeExitoFreelancers__title2 {
+        padding: 0rem 8%;
+        max-width: none;
+    }
+
+    .arrowLeft, .arrowRight {
+        margin-top: 15rem;
+    }
+
+    .CasosDeExitoFreelancersContent {
+        padding: 1rem 20%;
+        gap: 7.5rem;
+    }
+}
+
+  /* Tabletas grandes / Dispositivos pequeños de escritorio */
+@media (min-width: 1024px) {
+    .CasosDeExitoFreelancers {
+        padding: 6rem 0;
+    }
+
+    .CasosDeExitoFreelancers__title, .CasosDeExitoFreelancers__title2 {
+        padding: 0rem 10%;
+    }
+
+    .arrowLeft, .arrowRight {
+        margin-top: 15rem;
+    }
+}
+
+  /* Escritorio */
+@media (min-width: 1280px) {
+    /* Estilos para escritorio */
+    .CasosDeExitoFreelancers {
+        padding: 7rem 0;
+    }
+
+    .CasosDeExitoFreelancers__title, .CasosDeExitoFreelancers__title2 {
+        padding: 0rem 14%;
+    }
+
+    .CasosDeExitoFreelancersContent {
+        padding: 1rem 14%;
+    }
+}
