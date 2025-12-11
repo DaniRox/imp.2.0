@@ -8,7 +8,7 @@ import CompromisoImpulzzeEmpresas from "../sections/CompromisoImpulzzeEmpresas/C
 import ImpulzzeEmpresas from "../sections/ImpulzzeEmpresas/ImpulzzeEmpresas";
 import ComoFuncionaEmpresas from "../sections/ComoFuncionaEmpresas/ComoFuncionaEmpresas";
 import RegistrarEmpresa from "../sections/RegistrarEmpresa/RegistrarEmpresa";
-import CasosDeExitoEmpresas from "../sections/CasosDeExitoEmpresas/CasosDeExitoEmpresas";
+//import CasosDeExitoEmpresas from "../sections/CasosDeExitoEmpresas/CasosDeExitoEmpresas";
 
 
 const HomePage = () => {
