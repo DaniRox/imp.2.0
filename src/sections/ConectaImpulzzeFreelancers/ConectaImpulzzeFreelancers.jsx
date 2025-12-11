@@ -6,7 +6,7 @@ const ConectaImpulzzeFreelancers = () => {
     return (
         <section className={styles.ConectaImpulzzeFreelancers} id="ConectaImpulzzeFreelancers">
             <div className={styles.ConectaImpulzzeFreelancers__titles}>
-                <h1 className={styles.ConectaImpulzzeFreelancers__title}>Transforma tu visión con el talento correcto.
+                <h1 className={styles.ConectaImpulzzeFreelancers__title}>Transforma tu visión con el talento correcto. <br />
                 Conecta y crea éxito.</h1>
             </div>
 
@@ -22,7 +22,7 @@ const ConectaImpulzzeFreelancers = () => {
 
                 <div className={styles.ConectaImpulzzeFreelancersContent__text}>
                     <p className={styles.text}>
-                        Sea que necesites talento para tu empresa o quieras llevar tu carrera al siguiente nivel, en Impulzze tienes el punto de partida.
+                        Sea que necesites talento para tu empresa o quieras llevar tu carrera al siguiente nivel, en <span className={styles.highlighted}>Impulzze</span> tienes el punto de partida.
 
                     </p>
                 </div>

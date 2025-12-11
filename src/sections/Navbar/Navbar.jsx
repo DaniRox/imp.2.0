@@ -34,11 +34,11 @@ const Navbar = () => {
                     onClick={() => scrollToSection("ImpulzzeEmpresas")}
                 />
                 <Button
-                    text="Talento"
+                    text="Exitos"
                     backgroundColor="var(--clear)"
                     hoverColor="var(--salmon)"
                     fontSize="var(--font-small)"
-                    onClick={() => scrollToSection("")}
+                    onClick={() => scrollToSection("CasosDeExitoEmpresas")}
                 />
 
             </div>

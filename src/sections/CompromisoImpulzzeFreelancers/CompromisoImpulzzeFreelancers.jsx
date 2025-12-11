@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import styles from "./CompromisoImpulzzeFreelancers.module.scss";
 import Group2 from "../../components/Group2";
 
+
 const CompromisoImpulzzeFreelancers = () => {
     const videoRef = useRef(null);
     const [isVideoActive, setIsVideoActive] = useState(false);
@@ -32,11 +33,11 @@ const CompromisoImpulzzeFreelancers = () => {
             <div className={styles.CompromisoImpulzzeFreelancersContent}>
                 <div className={styles.CompromisoImpulzzeFreelancersContent__shapes}>
                     {/* Uso correcto del componente Group1 */}
-                    <Group2 
-                        src="@/assets/images/Group1.png" 
+                    <Group2
+                        src="@/assets/images/Group1.png"
                         alt="Descripción de la forma decorativa"
                         className={styles.shapeImage}
-                    />                              
+                    />
                 </div>
                 <div className={styles.CompromisoImpulzzeFreelancersContent__text}>
                     <p className={styles.text}>
@@ -45,7 +46,7 @@ const CompromisoImpulzzeFreelancers = () => {
                         Y te ayudamos a convertirte en el candidato que las empresas sí quieren entrevistar. <br /><br />
                         <p className={styles.textItalic}>
                             En Impulzze, cada conexión es una oportunidad de éxito.
-                        </p> 
+                        </p>
                     </p>
                 </div>
 

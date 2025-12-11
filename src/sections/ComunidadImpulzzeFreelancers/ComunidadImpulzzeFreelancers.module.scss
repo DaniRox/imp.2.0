@@ -3,7 +3,7 @@
     padding: 3rem 5%;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.5rem;
     align-items: flex-start;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .ComunidadImpulzzeFreelancers__subtitle {
-    color: var(--dark);
+    color: var(--purple);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
     font-size: var(--font-medium);
@@ -24,7 +24,7 @@
 }
 
 .ComunidadImpulzzeFreelancers__title {
-    color: var(--purple);
+    color: var(--dark);
     font-family: var(--font-secondary);
     font-weight: var(--font-weight-black);
     font-size: var(--font-large);
@@ -41,8 +41,8 @@
 
 .ComunidadImpulzzeFreelancersContent__text {
     background-color: var(--salmon);
-    padding: 3.5rem 3.5rem 5rem 4rem;
-    border-radius: 130rem 0 90rem 90rem;
+    padding: 4.5rem 3.5rem 5rem 4rem;
+    border-radius: 110rem 0 90rem 90rem;
     line-height: 110%;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
     font-family: var(--font-secondary);
     color: var(--esmerald);
     font-size: var(--font-medium);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     align-self: flex-end;
     line-height: 110%;
 }
@@ -96,10 +96,15 @@
     font-family: var(--font-secondary);
     color: var(--maiz);
     font-size: var(--font-medium);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     align-self: flex-start;
     line-height: 110%;
 }
+
+.ul {
+    margin-left: 3rem;
+}
+
 
 @media (min-width: 375px) {
 
@@ -126,8 +131,7 @@
     }
 
     .ComunidadImpulzzeFreelancersContent__text {
-        padding: 4rem 4rem 5rem 4rem;
-        border-radius: 130rem 0 110rem 110rem;
+        padding: 4rem 4rem 5rem 5rem;
         height: min-content;
     }
 }
@@ -136,7 +140,7 @@
 @media (min-width: 768px) {
     .ComunidadImpulzzeFreelancers {
         padding: 4rem 8%;
-        gap: 1.5rem;
+        gap: 1.8rem;
     }
 
     .ComunidadImpulzzeFreelancers__subtitle {
@@ -169,10 +173,13 @@
 @media (min-width: 1024px) {
     .ComunidadImpulzzeFreelancers {
         padding: 5rem 10%;
+        gap: 2.1rem;
     }
 
     .ComunidadImpulzzeFreelancersContent__text {
         height: min-content;
+        padding: 4.5rem 3.5rem 5rem 4rem;
+        border-radius: 110rem 0 110rem 90rem;
     }
 
     .ComunidadImpulzzeFreelancersContent__spans {
@@ -186,12 +193,12 @@
     }
 
     .span1 {
-        width: 70%;
+        width: 100%;
         font-size: var(--font-large);
     }
 
     .span2 {
-        width: 70%;
+        width: 100%;
         font-size: var(--font-large);
     }
 }
@@ -215,12 +222,10 @@
     }
 
     .span1 {
-        width: 60%;
         font-size: var(--font-large);
     }
 
     .span2 {
-        width: 60%;
         font-size: var(--font-large);
     }
 }

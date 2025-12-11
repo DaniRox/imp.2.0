@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import styles from "./CompromisoImpulzzeEmpresas.module.scss";
 import Group1 from "../../components/Group1";
 
+
 const CompromisoImpulzzeEmpresas = () => {
     const videoRef = useRef(null);
     const [isVideoActive, setIsVideoActive] = useState(false);
@@ -46,20 +47,20 @@ const CompromisoImpulzzeEmpresas = () => {
 
                 <div className={styles.CompromisoImpulzzeEmpresasContent__text}>
                     <p className={styles.text}>
-                        Consultoría de Recursos Humanos + talento global + People Operations. Todo en un solo lugar.<br></br>
-                        <br></br>Para startups, pequeñas y medianas empresas que quieren crecer con orden, rapidez y estrategia.
+                        Consultoría de <span className={styles.highlighted}>Recursos Humanos + talento global + People Operations</span>. Todo en un solo lugar.<br></br>
+                        <br></br>Para <span className={styles.highlighted}>startups, pequeñas y medianas empresas</span> que quieren crecer con orden, rapidez y estrategia.
                     </p>
                 </div>
 
                 <div className={styles.CompromisoImpulzzeEmpresasContent__shapes}>
                     {/* Uso correcto del componente Group1 */}
-                    <Group1 
-                        width="150" 
-                        height="auto" 
-                    />                                
+                    <Group1
+                        width="150"
+                        height="auto"
+                    />
                 </div>
             </div>
-            <h2 className={styles.CompromisoImpulzzeEmpresasContent__title}>Crecimiento sin dolores de cabeza, RRHH con estrategia.</h2>
+            <h2 className={styles.CompromisoImpulzzeEmpresasContent__title2}>Crecimiento sin dolores de cabeza, RRHH con estrategia.</h2>
         </section>
     );
 };

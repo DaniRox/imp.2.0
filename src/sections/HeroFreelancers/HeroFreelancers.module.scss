@@ -1,5 +1,5 @@
 .HeroFreelancers {
-    background-color: var(--esmerald);
+    background-color: var(--purple);
     color: var(--clear);
     padding: 7rem 5%;
 }
@@ -18,11 +18,13 @@
     gap: 1.5rem;
 }
 
-h1 {
+.h1 {
+    height: 6rem;
     color: var(--dark);
     font-family: var(--font-secondary);
     font-size: var(--font-Xlarge);
     font-weight: var(--font-weight-black);
+    line-height: 120%;
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +43,7 @@ h1 {
 }
 
 .logotipo {
-    background-color: var(--purple);
+    background-color: var(--esmerald);
     width: 8rem;
     height: 8rem;
     padding: 1.3rem;
@@ -53,7 +55,7 @@ h1 {
 }
 
 .animatedText {
-    background-color: var(--esmerald);
+    background-color: var(--maiz);
     width: fit-content;
     display: flex;
     align-items: center;
@@ -69,7 +71,7 @@ h1 {
         background-size: 40rem;
     }
 
-    h1 {
+    .h1 {
         font-size: var(--font-Xlarge);
     }
 
@@ -85,8 +87,9 @@ h1 {
         background-size: 48rem;
     }
 
-    h1 {
+    .h1 {
         font-size: var(--font-XXlarge);
+        height: 10rem;
     }
 
     .HeroFreelancersContent__Logotipo{
@@ -98,7 +101,7 @@ h1 {
     .logotipo {
         width: 12rem;
         height: 12rem;
-        padding: 1.3rem;
+        padding: 2rem;
     }
 
     .HeroFreelancersContent {
@@ -131,7 +134,7 @@ h1 {
         gap: 2rem;
     }
 
-    h1 {
+    .h1 {
         font-size: var(--font-XXlarge);
     }
 
@@ -193,8 +196,9 @@ h1 {
         flex-direction: row;
     }
 
-    h1 {
+    .h1 {
         font-size: var(--font-XXlarge);
+        height: 12rem;
     }
 
     .logotipo {
@@ -206,7 +210,7 @@ h1 {
 
 @media (min-width: 1228px) {
 
-    h1 {
+    .h1 {
         font-size: var(--font-XXXlarge);
     }
 

@@ -44,7 +44,7 @@ const Hero = () => {
         <header className={styles.Hero} id="Hero">
             <div className={styles.HeroContent}>
                 <div className={styles.HeroContent__text}>
-                    <h1>
+                    <h1 className={styles.h1}>
                         Impulzza tu empresa,<br />
                         Somo tu<br />
                         <span className={styles.animatedText}>
@@ -74,7 +74,7 @@ const Hero = () => {
                             backgroundColor="var(--salmon)"
                             hoverColor="var(--esmerald)"
                             fontSize="var(--font-medium)"
-                            onClick={() => scrollToSection("ImpulzzeFreelancers")}
+                            onClick={() => scrollToSection("RegistrarEmpresa")}
                         />
                     </div>
                 </div>

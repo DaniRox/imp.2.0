@@ -29,7 +29,6 @@
     font-weight: var(--font-weight-black);
     font-size: var(--font-large);
     text-align: start;
-    max-width: 35rem;
     line-height: 120%;
 }
 
@@ -85,8 +84,8 @@
     text-align: end;
     font-family: var(--font-secondary);
     color: var(--esmerald);
-    font-size: var(--font-medium);
-    font-weight: var(--font-weight-black);
+    font-size: var(--font-medium2);
+    font-weight: var(--font-weight-medium);
     align-self: flex-end;
     line-height: 110%;
 }
@@ -95,18 +94,21 @@
     width: 90%;
     font-family: var(--font-secondary);
     color: var(--salmon);
-    font-size: var(--font-medium);
-    font-weight: var(--font-weight-black);
+    font-size: var(--font-medium2);
+    font-weight: var(--font-weight-medium);
     align-self: flex-start;
     line-height: 110%;
 }
 
 @media (min-width: 375px) {
-    
-    
+
+
 }
 
 @media (min-width: 480px) {
+    .SobreImpulzzeEmpresas__title {
+        gap: 1.5rem;
+    }
 
     .SobreImpulzzeEmpresas__title {
         font-size: var(--font-secondary-Xlarge);
@@ -130,7 +132,7 @@
 @media (min-width: 769px) {
     .SobreImpulzzeEmpresas {
         padding: 4rem 8%;
-        gap: 1.5rem;
+        gap: 1.7rem;
     }
 
     .SobreImpulzzeEmpresas__subtitle {
@@ -147,7 +149,7 @@
         flex-direction: row;
         align-items: flex-start;
     }
-    
+
     .span1 {
         width: 80%;
         font-size: var(--font-large);
@@ -168,6 +170,7 @@
 @media (min-width: 1024px) {
     .SobreImpulzzeEmpresas {
         padding: 5rem 10%;
+        gap: 2rem;
     }
 
     .SobreImpulzzeEmpresasContent__text {
@@ -233,5 +236,5 @@
 
 /* Pantallas extra grandes */
 @media (min-width: 2000px) {
-    
+
 }

@@ -12,7 +12,7 @@ const RegistrarFreelancers = () => {
         email: '',
         pais_residencia: '',
         area_especializacion: '',
-        nivel_experiencia: '',
+        numero_telefonico: '',
         idiomas: '',
         portafolio_linkedin: ''
     });
@@ -32,9 +32,7 @@ const RegistrarFreelancers = () => {
         nombre_completo: formData.nombre_completo,
         email: formData.email,
         pais_residencia: formData.pais_residencia,
-        area_especializacion: formData.area_especializacion,
-        nivel_experiencia: formData.nivel_experiencia,
-        idiomas: formData.idiomas,
+        numero_telefonico: formData.numero_telefonico,
         portafolio_linkedin: formData.portafolio_linkedin
         };
 
@@ -50,9 +48,7 @@ const RegistrarFreelancers = () => {
             nombre_completo: '',
             email: '',
             pais_residencia: '',
-            area_especializacion: '',
-            nivel_experiencia: '',
-            idiomas: '',
+            numero_telefonico: '',
             portafolio_linkedin: ''
         });
 
@@ -93,39 +89,22 @@ const RegistrarFreelancers = () => {
             />
             <input
                 type="text"
-                name="pais_residencia"
-                placeholder="País de residencia"
+                name="numero_telefonico"
+                placeholder="Número Telefónico"
                 className={styles.formInput}
-                value={formData.pais_residencia}
-                onChange={handleChange}
-                required
-            />
-            <input
-                type="text"
-                name="area_especializacion"
-                placeholder="Área de especialización"
-                className={styles.formInput}
-                value={formData.area_especializacion}
+                value={formData.numero_telefonico}
                 onChange={handleChange}
                 required
             />
             </div>
             <div className={styles.col2}>
+
             <input
                 type="text"
-                name="nivel_experiencia"
-                placeholder="Nivel de experiencia"
+                name="pais_residencia"
+                placeholder="País de residencia"
                 className={styles.formInput}
-                value={formData.nivel_experiencia}
-                onChange={handleChange}
-                required
-            />
-            <input
-                type="text"
-                name="idiomas"
-                placeholder="Idiomas"
-                className={styles.formInput}
-                value={formData.idiomas}
+                value={formData.pais_residencia}
                 onChange={handleChange}
                 required
             />

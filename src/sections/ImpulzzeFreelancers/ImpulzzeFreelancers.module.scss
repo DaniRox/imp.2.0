@@ -81,7 +81,7 @@ li {
 
 
 /* Móviles estándar */
-@media (min-width: 481px) {
+@media (min-width: 480px) {
     .ImpulzzeFreelancersContent {
         padding: 2rem 20%;
         gap: 50%;
@@ -97,7 +97,7 @@ li {
 }
 
   /* Tabletas pequeñas */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .ImpulzzeFreelancers {
         padding: 4rem 8%;
     }
@@ -134,7 +134,7 @@ li {
 
   /* Escritorio */
 @media (min-width: 1280px) {
-    
+
 }
 
 /* Pantallas grandes de escritorio */
@@ -146,5 +146,5 @@ li {
 
 /* Pantallas extra grandes */
 @media (min-width: 2000px) {
-    
+
 }

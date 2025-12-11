@@ -7,16 +7,24 @@
     gap: 1.5rem;
 }
 
-.CasosDeExitoEmpresas__title {
+.CasosDeExitoEmpresas__title, .CasosDeExitoEmpresas__title2 {
     padding: 0rem 5%;
     color: var(--clear);
     font-family: var(--font-secondary);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-large);
     text-align: start;
     max-width: 35rem;
     align-self: flex-start;
     line-height: 120%;
+}
+
+.CasosDeExitoEmpresas__title {
+    align-self: flex-start;
+}
+
+.CasosDeExitoEmpresas__title2 {
+    align-self: flex-end;
 }
 
 .arrowLeft, .arrowRight {
@@ -67,7 +75,7 @@
         margin-top: 14rem;
     }
 
-    .CasosDeExitoEmpresas__title {
+    .CasosDeExitoEmpresas__title, .CasosDeExitoEmpresas__title2 {
         font-size: var(--font-secondary-Xlarge);
     }
 }
@@ -80,7 +88,7 @@
         gap: 2.5rem;
     }
 
-    .CasosDeExitoEmpresas__title {
+    .CasosDeExitoEmpresas__title, .CasosDeExitoEmpresas__title2 {
         padding: 0rem 8%;
         max-width: none;
     }
@@ -101,7 +109,7 @@
         padding: 6rem 0;
     }
 
-    .CasosDeExitoEmpresas__title {
+    .CasosDeExitoEmpresas__title, .CasosDeExitoEmpresas__title2 {
         padding: 0rem 10%;
     }
 
@@ -117,7 +125,7 @@
         padding: 7rem 0;
     }
 
-    .CasosDeExitoEmpresas__title {
+    .CasosDeExitoEmpresas__title, .CasosDeExitoEmpresas__title2 {
         padding: 0rem 14%;
     }
 

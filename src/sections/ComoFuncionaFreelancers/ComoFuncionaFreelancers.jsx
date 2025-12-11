@@ -6,7 +6,7 @@ import ArrowRight from "../../components/ArrowRight";
 const ComoFuncionaFreelancers = () => {
     return (
         <section className={styles.ComoFuncionaFreelancers}>
-            <h1 className={styles.ComoFuncionaFreelancers__title}>¿Como Funciona?</h1>
+            <h1 className={styles.ComoFuncionaFreelancers__title}>Como Funciona?</h1>
 
             <ArrowLeft
                 size={80}

@@ -21,13 +21,15 @@ const ComunidadImpulzzeFreelancers = () => {
 
                 <div className={styles.ComunidadImpulzzeFreelancersContent__text}>
                     <p className={styles.text}>
-                        Ser freelance y talento Global no es un camino solitario. Unete a la comunidad global de freelancers y profesionales que ya están trabajando remoto o en empresas internacionales.<br />
-                        Beneficios Impulzzer: <br />
-                        Entrenamientos <br />
-                        Chat comunidad  <br />
-                        Lista semanal de oportunidades remotas verificadas <br />
-                        Networking con profesionales de diferentes países <br />
-                        Acceso prioritario a proyectos y búsquedas de empresas clientes de Impulzze <br /> <br />
+                        <span className={styles.highlighted}>Ser freelance y talento Global no es un camino solitario.</span><br />
+                        Unete a la comunidad global de freelancers y profesionales que ya están trabajando remoto o en empresas internacionales.<br />
+                        <ul className={styles.ul}><span className={styles.highlighted}>Beneficios Impulzzer:</span>
+                            <li>Entrenamientos </li>
+                            <li>Chat comunidad</li>
+                            <li>Lista semanal de oportunidades remotas verificadas</li>
+                            <li>Networking con profesionales de diferentes países</li>
+                            <li>Acceso prioritario a proyectos y búsquedas de empresas clientes de Impulzze</li>
+                        </ul>
                         <span className={styles.highlighted}>En Impulzze, somos Impulzzers que impulsamos Empresas.</span>
                     </p>
                 </div>

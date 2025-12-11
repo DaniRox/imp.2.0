@@ -24,9 +24,9 @@
 }
 
 .ConectaImpulzzeFreelancers__title {
-    color: var(--esmerald);
+    color: var(--clear);
     font-family: var(--font-secondary);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-Xlarge);
     text-align: start;
     line-height: 120%;
@@ -50,15 +50,15 @@
 .text {
     height: min-content;
     color: var(--dark);
-    font-family: var(--font-primary);
-    font-weight: var(--font-weight-regular);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-light);
     font-size: var(--font-large);
     line-height: 120%;
 }
 
 .highlighted {
+    font-style: italic;
     font-family: var(--font-secondary);
-    font-size: var(--font-medium2);
 }
 
 .ConectaImpulzzeFreelancersContent__shapes {
@@ -135,10 +135,6 @@
     .ConectaImpulzzeFreelancers {
         padding: 4rem 8%;
         gap: 1.5rem;
-    }
-
-    .ConectaImpulzzeFreelancers__title {
-        max-width: 75%;
     }
 
     .ConectaImpulzzeFreelancersContent__text {

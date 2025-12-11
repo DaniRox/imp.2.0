@@ -5,9 +5,9 @@ import Button from "../../components/Button";
 
 
 const spans = [
-    "Partner de RRHH",
-    "Especialista de Talento Global",
-    "Aliado Estratégico",
+    "Nuevas Oportunidades Laborales",
+    "Proyectos Globales",
+    "Oportunidades Freelance",
 ];
 
 const HeroFreelancers = () => {
@@ -44,7 +44,7 @@ const HeroFreelancers = () => {
         <header className={styles.HeroFreelancers} id="HeroFreelancers">
             <div className={styles.HeroFreelancersContent}>
                 <div className={styles.HeroFreelancersContent__text}>
-                    <h1>
+                    <h1 className={styles.h1}>
                         Impulzza tu empresa,<br />
                         Somo tu<br />
                         <span className={styles.animatedText}>
@@ -63,15 +63,15 @@ const HeroFreelancers = () => {
                     </h1>
                     <div className={styles.HeroFreelancersContent__buttons}>
                         <Button
-                            text="Conoce nuestros Servicios: Camino Impulzze"
-                            backgroundColor="var(--maiz)"
+                            text={["Conoce nuestros Servicios: ", <br />, "Camino Impulzze"]}
+                            backgroundColor="var(--esmerald)"
                             hoverColor="var(--salmon)"
                             fontSize="var(--font-medium)"
                             onClick={() => scrollToSection("ImpulzzeFreelancers")}
                         />
                         <Button
-                            text="Quiero Ser Impulzzer: Proyectos Globales"
-                            backgroundColor="var(--salmon)"
+                            text={["Quiero Ser Impulzzer: ", <br />, "Proyectos Globales"]}
+                            backgroundColor="var(--maiz)"
                             hoverColor="var(--salmon)"
                             fontSize="var(--font-medium)"
                             onClick={() => scrollToSection("RegistrarFreelancers")}
@@ -81,7 +81,7 @@ const HeroFreelancers = () => {
 
                 <div className={styles.HeroFreelancersContent__Logotipo}>
                     <div className={styles.logotipo}>
-                        <Logotipo1 color="var(--esmerald)" width="9rem" height="auto" />
+                        <Logotipo1 color="var(--purple)" width="9rem" height="auto" />
                     </div>
                 </div>
             </div>

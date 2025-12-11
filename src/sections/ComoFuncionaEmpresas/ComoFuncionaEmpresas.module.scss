@@ -82,24 +82,30 @@
 
 .span1, .span2 {
     font-size: var(--font-large);
-    padding: 0 5%;
     max-width: 20rem;
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     color: var(--dark);
-    font-size: var(--font-medium);
-    font-weight: var(--font-weight-black);
+    font-size: var(--font-medium2);
+    font-weight: var(--font-weight-mediium);
     line-height: 110%;
 }
 
 .span1 {
-    width: 80%;
+    width: fit-content;
+    max-width: 13rem;
     align-self: flex-end;
     text-align: end;
+    margin-top: 0.8rem;
+    background-color: var(--esmerald);
+    padding: 0.3rem;
 }
 
 .span2 {
-    width: 80%;
+    width: fit-content;
+    max-width: 13rem;
     align-self: flex-start;
+    background-color: var(--maiz);
+    padding: 0.3rem;
 }
 
 @media (min-width: 375px) {
@@ -119,7 +125,7 @@
     }
 
     .span1, .span2 {
-        max-width: 24rem;
+        max-width: 15rem;
     }
 
     .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
@@ -170,10 +176,10 @@
 
     .span1, .span2 {
         max-width: none;
-        padding: 0 0;
+        max-width: none;
         font-size: var(--font-large);
     }
-    
+
     /*animaciones de los circulos */
     @keyframes bounce1 {
         0%, 100% {

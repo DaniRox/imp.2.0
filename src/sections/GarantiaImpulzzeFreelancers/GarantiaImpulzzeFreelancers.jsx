@@ -1,5 +1,6 @@
 import styles from "./GarantiaImpulzzeFreelancers.module.scss";
 import Group3 from "../../components/Group3";
+import Logotipo1 from "../../components/Logotipo1";
 
 
 const GarantiaImpulzzeFreelancers = () => {
@@ -8,6 +9,12 @@ const GarantiaImpulzzeFreelancers = () => {
             <div className={styles.GarantiaImpulzzeFreelancers__titles}>
                 <h1 className={styles.GarantiaImpulzzeFreelancers__title}>Garantía Impulzze</h1>
                 <h2 className={styles.GarantiaImpulzzeFreelancers__subtitle}>Crea tu perfil y da el primer paso hacia nuevas oportunidades</h2>
+            </div>
+
+            <div className={styles.GarantiaImpulzzeFreelancers__Logotipo}>
+                <div className={styles.logotipo}>
+                    <Logotipo1 color="var(--salmon)" width="9rem" height="auto" />
+                </div>
             </div>
 
             <div className={styles.GarantiaImpulzzeFreelancersContent}>
@@ -20,8 +27,10 @@ const GarantiaImpulzzeFreelancers = () => {
                 </div>
 
                 <div className={styles.GarantiaImpulzzeFreelancersContent__text}>
+                    <p className={styles.textSubtitle}>
+                        Cero riesgo para ti. Seguimos hasta que lo logres.
+                    </p>
                     <p className={styles.text}>
-                        <span className={styles.highlighted}>Cero riesgo para ti. Seguimos hasta que lo logres.</span><br />
                         Si en 90 días no ves avances reales (entrevistas, visibilidad, llamados, oportunidades)…seguimos sin Costo adicional. Porque nuestro foco es acompañarte hasta cumplir con tu objetivo profesional.<br /><br />
                         <span className={styles.highlighted}>En Impulzze, no te dejamos solo. Nunca.</span>
                     </p>

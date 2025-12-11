@@ -29,7 +29,7 @@ const ComoFuncionaEmpresas = () => {
                         Analizamos tu equipo, tus procesos y tus retos de RRHH para entender exactamente qué necesitas. <br /><br />
                         <p className={styles.highlighted}>
                             Sin suposiciones. Solo datos reales y una visión experta
-                        </p> 
+                        </p>
                     </p>
                 </div>
 
@@ -39,7 +39,7 @@ const ComoFuncionaEmpresas = () => {
                         Diseñamos una solución a medida que combina estrategia, procesos y el talento adecuado. <br /><br />
                         <p className={styles.highlighted}>
                             Lo esencial para que tu equipo crezca con orden, foco y eficiencia.
-                        </p> 
+                        </p>
                     </p>
                 </div>
 
@@ -48,12 +48,12 @@ const ComoFuncionaEmpresas = () => {
                         Ejecutamos contigo un plan claro y práctico, optimizando procesos, estructuras y dinámicas de trabajo. Desde las primeras semanas comienzas a ver mejoras reales.<br /><br />
                         <p className={styles.highlighted}>
                             Acción + acompañamiento continuo para que tu empresa avance.
-                        </p> 
+                        </p>
                     </p>
                 </div>
             </div>
 
-            <span className={styles.span2}>Somos un equipo con experiencia global en RRHH, startups y crecimiento.</span>
+            <span className={styles.span2}>Tu empresa gana estructura, claridad y orden, sin contratar un equipo interno.</span>
 
         </section>
     );

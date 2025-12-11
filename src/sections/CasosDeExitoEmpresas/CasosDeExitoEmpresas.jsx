@@ -85,6 +85,7 @@ const CasosDeExitoEmpresas = () => {
         }
     };
 
+
     return (
         <section className={styles.CasosDeExitoEmpresas} id="CasosDeExitoEmpresas">
             <h1 className={styles.CasosDeExitoEmpresas__title}>
@@ -114,6 +115,10 @@ const CasosDeExitoEmpresas = () => {
                     />
                 ))}
             </div>
+
+            <h1 className={styles.CasosDeExitoEmpresas__title2}>
+                Nuestros clientes lo respaldan.
+            </h1>
         </section>
     );
 };

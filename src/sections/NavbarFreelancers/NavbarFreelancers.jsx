@@ -34,7 +34,7 @@ const NavbarFreelancers = () => {
                     onClick={() => scrollToSection("ImpulzzeFreelancers")}
                 />
                 <Button
-                    text="Sumarme"
+                    text="Ser Impulzzer"
                     backgroundColor="var(--clear)"
                     hoverColor="var(--salmon)"
                     fontSize="var(--font-small)"

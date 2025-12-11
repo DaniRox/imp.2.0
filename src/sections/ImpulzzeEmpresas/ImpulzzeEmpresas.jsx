@@ -64,7 +64,7 @@ const ImpulzzeEmpresas = () => {
                         Procesos de selección eficientes, transparentes y centrados en la calidad.<br /><br />
                         Encontramos talento verificado, rápido y especializado en tus necesidades.<br /><br />
                         <p className={styles.text__highlighted} >Cumplimos en 30 días.</p><br />
-                        <p className={styles.text__highlighted} >Con garantía por 6 meses.</p>             
+                        <p className={styles.text__highlighted} >Con garantía por 6 meses.</p>
                         </>
                     }
                 />
@@ -86,7 +86,7 @@ const ImpulzzeEmpresas = () => {
             </div>
 
             <span className={styles.span}>Somos el partner estratégico con experiencia Global que mereces y necesitas.</span>
-            
+
             <div className={styles.ImpulzzeEmpresasContent__Button}>
                 <div className={styles.ContentButton}>
                     <HalfCircle
@@ -100,12 +100,12 @@ const ImpulzzeEmpresas = () => {
                         backgroundColor="var(--salmon)"
                         hoverColor="var(--esmerald)"
                         fontSize="var(--font-medium)"
-                        onClick={() => scrollToSection("RegistrarEmpresa")}
+                        onClick={() => scrollToSection("CasosDeExitoEmpresas")}
                     />
-                </div>    
-                
+                </div>
+
             </div>
-            
+
         </section>
     );
 };
