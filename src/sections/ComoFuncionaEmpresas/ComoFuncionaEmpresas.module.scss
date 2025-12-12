@@ -129,10 +129,10 @@
     }
 
     .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
-        min-width: 16rem;
-        width: 16rem;
-        height: 16rem;
-        padding: 3rem;
+        min-width: 15rem;
+        width: 15rem;
+        height: 15rem;
+        padding: 2rem;
     }
 
     .arrowLeft, .arrowRight {
@@ -168,10 +168,15 @@
 
     .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
         margin: 2rem 0;
-        min-width: 17rem;
-        width: 17rem;
-        height: 17rem;
-        padding: 3rem;
+        min-width: 14.5rem;
+        width: 14.5rem;
+        height: 14.5rem;
+        padding: 2rem;
+    }
+
+
+    .CardCircle__text {
+        font-size: var(--font-small);
     }
 
     .span1, .span2 {
@@ -232,9 +237,27 @@
         padding: 5rem 10%;
     }
 
+    .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
+        margin: 2rem 0;
+        min-width: 14.5rem;
+        width: 14.5rem;
+        height: 14.5rem;
+        padding: 2rem;
+    }
+
+
+    .CardCircle__text {
+        font-size: var(--font-small);
+    }
+
+
     .ComoFuncionaEmpresas__title {
         font-size: var(--font-XXXlarge);
         padding: 0rem 0;
+    }
+
+    .ComoFuncionaEmpresasContent {
+        gap: 0rem 1rem;
     }
 
     .span1, .span2 {
@@ -244,6 +267,13 @@
 
 
 @media (min-width: 1280px) {
+    .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
+        margin: 2rem 0;
+        min-width: 14rem;
+        width: 14rem;
+        height: 14rem;
+        padding: 2rem;
+    }
 
 }
 
@@ -253,6 +283,12 @@
         padding: 5rem 14%;
     }
 
+    .ComoFuncionaEmpresasContent__CardCircle1, .ComoFuncionaEmpresasContent__CardCircle2, .ComoFuncionaEmpresasContent__CardCircle3 {
+        min-width: 14.5rem;
+        width: 14.5rem;
+        height: 14.5rem;
+        padding: 2rem;
+    }
 }
 
 

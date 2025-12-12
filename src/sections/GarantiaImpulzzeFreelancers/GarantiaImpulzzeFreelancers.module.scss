@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    z-index: 2;
 }
 
 .GarantiaImpulzzeFreelancers__subtitle {
@@ -20,12 +21,14 @@
     font-weight: var(--font-weight-bold);
     font-size: var(--font-medium);
     text-align: start;
+    max-width: 50%;
+    line-height: 120%;
 }
 
 .GarantiaImpulzzeFreelancers__title {
     color: var(--clear);
     font-family: var(--font-secondary);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     font-size: var(--font-large);
     text-align: start;
     max-width: 35rem;
@@ -36,13 +39,14 @@
     position: absolute;
     align-self: flex-end;
     display: flex;
+    z-index: 0;
 }
 
 .logotipo {
     background-color: var(--esmerald);
-    width: 8rem;
-    height: 8rem;
-    padding: 1.3rem;
+    width: 7rem;
+    height: 7rem;
+    padding: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,12 +141,14 @@
 
     .GarantiaImpulzzeFreelancers__title {
         font-size: var(--font-secondary-Xlarge);
+        max-width: 30rem;
     }
 
     .shapeImage {
         height: auto;
         width: 9rem;
     }
+
 }
 
   /* Tabletas pequeñas */
@@ -179,6 +185,17 @@
         height: auto;
         width: 10rem;
     }
+
+    .GarantiaImpulzzeFreelancers__Logotipo {
+        margin-top: -1rem;
+    }
+
+
+    .logotipo {
+    width: 8rem;
+    height: 8rem;
+    padding: 1.4rem;
+}
 }
 
   /* Tabletas grandes / Dispositivos pequeños de escritorio */

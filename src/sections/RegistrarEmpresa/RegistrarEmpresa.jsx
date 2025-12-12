@@ -70,14 +70,14 @@ const RegistrarEmpresa = () => {
     return (
         <section className={styles.RegistrarEmpresa} id="RegistrarEmpresa">
         <div className={styles.RegistrarEmpresa__titles}>
-            <h1 className={styles.RegistrarEmpresa__title}>   
-                Registra Tu Empresa y Encuentra el Talento que Necesitas
-            </h1> 
+            <h1 className={styles.RegistrarEmpresa__title}>
+                Contactanos y creemos soluciones juntos
+            </h1>
             <h2 className={styles.RegistrarEmpresa__subtitle}>
-                Completa la información, nuestro equipo de profesionales te contactarán en menos de 48 horas. 
+                Completa la información, nuestro equipo de profesionales te contactarán en menos de 48 horas.
             </h2>
         </div>
-        
+
         <form className={styles.form} onSubmit={handleSubmit}>
             <div className={styles.col1}>
             <input
