@@ -16,6 +16,7 @@ const CardFreelancers = ({ Icon, title, text }) => {
 const CardFreelancers2 = ({ Icon, title, text }) => {
     return (
         <div className={styles.CardFreelancers2}>
+                    <div className={styles.badge}>Súper Elegido</div>
             <div className={styles.CardFreelancers__icon}>
                 <Icon size={20} color="var(--dark)" />
             </div>
