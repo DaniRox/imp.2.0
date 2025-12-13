@@ -8,14 +8,14 @@ import HalfCircle from "../../components/HalfCircle";
 
 
 const ImpulzzeEmpresas = () => {
-
+{/**
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     };
-
+*/}
     return (
         <section className={styles.ImpulzzeEmpresas} id="ImpulzzeEmpresas">
             <h1 className={styles.ImpulzzeEmpresas__title}>Que servicios ofrecemos?</h1>
@@ -87,6 +87,7 @@ const ImpulzzeEmpresas = () => {
 
             <span className={styles.span}>Somos el partner estratégico con experiencia Global que mereces y necesitas.</span>
 
+{/**
             <div className={styles.ImpulzzeEmpresasContent__Button}>
                 <div className={styles.ContentButton}>
                     <HalfCircle
@@ -95,7 +96,7 @@ const ImpulzzeEmpresas = () => {
                         className={styles.halfCircle}
                     />
 
-{/**
+
                     <Button
                         text="Conoce los Casos de Exito Impulzze"
                         backgroundColor="var(--salmon)"
@@ -103,12 +104,13 @@ const ImpulzzeEmpresas = () => {
                         fontSize="var(--font-medium)"
                         onClick={() => scrollToSection("CasosDeExitoEmpresas")}
                     />
-                    */}
+
 
                 </div>
 
-            </div>
 
+            </div>
+*/}
         </section>
     );
 };
