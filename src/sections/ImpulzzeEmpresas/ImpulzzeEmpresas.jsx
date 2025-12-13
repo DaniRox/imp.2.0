@@ -95,6 +95,7 @@ const ImpulzzeEmpresas = () => {
                         className={styles.halfCircle}
                     />
 
+{/**
                     <Button
                         text="Conoce los Casos de Exito Impulzze"
                         backgroundColor="var(--salmon)"
@@ -102,6 +103,8 @@ const ImpulzzeEmpresas = () => {
                         fontSize="var(--font-medium)"
                         onClick={() => scrollToSection("CasosDeExitoEmpresas")}
                     />
+                    */}
+
                 </div>
 
             </div>
