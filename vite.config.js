@@ -14,8 +14,7 @@ export default defineConfig({
         '@styles': path.resolve(__dirname, './src/styles'),
         },
     },
-    // --- AÑADE ESTA LÍNEA ---
-    // Reemplaza 'imp-v2' con el nombre exacto de tu repositorio en GitHub
-    base: process.env.NODE_ENV === 'production' ? '/imp.2.0/' : '/',
-    // ---------------------------
+    // --- CAMBIA ESTA LÍNEA POR ESTA ---
+    base: '/', // Siempre usa la raíz como ruta base
+    // ---------------------------------
 })
